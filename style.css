@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #bda0b3;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+header li:hover{
+    border-bottom: 3px solid black;
+}
+
+header ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+
+header div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#Favicon{
+    width: 30px;
+}
+
+.bottonPink{
+    background-color: #bb64a9;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+    .rotating-image{
+    animation: rotate 5s linear infinite;
+
+}
+
+
+main .background{  
+    overflow: hidden;
+    background: linear-gradient(to bottom, #bda0b3,#d3d3d3);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+ main .title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+ }
+
+ main .testo{
+    line-height: 20px;
+ }
+
+ main .bottone{
+    margin: 40px 0 30px 0;
+ }
+
+main .funzioni img{
+    width: 300px;
+    border-radius: 50px;
+}
+
+main .funzioni{
+    display: flex;
+}
+
+main .funzioni div{
+    padding: 30px;
+}
+
+main .funzioni div h2{
+   color: #0061ff;
+   font-weight: 20px;
+   margin-bottom: 10px;
+}
+
+main .funzioniDue{
+    background: linear-gradient(to top, #bda0b3,#d3d3d3);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+main .titleDue{
+background: linear-gradient(to top, #bda0b3,#d3d3d3);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+width: 80%;
+margin: 0 auto;
+text-align: center;
+margin-block: 50px;
+margin-bottom: 0px;
+}
+
+main .funzioniDue .Container-Flex{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+main .funzioniDue .Container-Flex div{
+  margin-bottom: 20px; 
+}
+
+main .funzioniDue .Container-Flex p{
+    line-height: 20px;
+  }
+
+main .utilizzo{
+    background-color: black;
+    width: 100%;
+}
+
+main .utilizzo .margine{
+    background: linear-gradient(to top, #bda0b3,black);
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+}
+main .utilizzo img{
+   width: 100%;
+}
+
+main .utilizzo .backgrigio{
+    background-color: gray;
+    
+}
+
+main .testo{
+    padding: 20px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }}
+
+
+    
