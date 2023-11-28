@@ -19,7 +19,7 @@ header{
 }
 
 header li:hover{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #0061ff;
 }
 
 header ul{
@@ -35,16 +35,15 @@ header div{
     gap: 15px;
 }
 
-#Favicon{
-    width: 30px;
-}
-
 .bottonPink{
     background-color: #bb64a9;
     padding: 10px;
     border-radius: 15px;
     border: none;
     color: white;
+}
+.bottonPink:hover{
+    opacity: 0.5;
 }
     .rotating-image{
     animation: rotate 5s linear infinite;
@@ -149,7 +148,9 @@ main .utilizzo img{
 
 main .utilizzo .backgrigio{
     background-color: gray;
-    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
 }
 
 main .testo{
