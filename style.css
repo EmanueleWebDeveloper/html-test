@@ -16,6 +16,8 @@ header{
     background-color: #bda0b3;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    position: fixed;
+    width: 100%;
 }
 
 header li:hover{
@@ -50,11 +52,11 @@ header div{
 
 }
 
-
 main .background{  
     overflow: hidden;
     background: linear-gradient(to bottom, #bda0b3,#d3d3d3);
     width: 80%;
+    padding-top: 50px;
     margin: 0 auto;
     text-align: center;
     border-bottom-left-radius: 20px;
@@ -130,7 +132,7 @@ main .funzioniDue .Container-Flex p{
   }
 
 main .utilizzo{
-    background-color: black;
+    background-color: #1e1919;
     width: 100%;
 }
 
@@ -146,6 +148,15 @@ main .utilizzo img{
    width: 100%;
 }
 
+main .utilizzo h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+
+ main .utilizzo p{
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
 main .utilizzo .backgrigio{
     background-color: gray;
     border-bottom-left-radius: 20px;
@@ -155,6 +166,95 @@ main .utilizzo .backgrigio{
 
 main .testo{
     padding: 20px;
+}
+
+.titledue{
+    background-color: #1e1919;
+    width: 100%;
+}
+
+.titledueuno{
+color: white;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+font-size: 30px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    background-color: #1e1919;
+}
+
+.flex2 h2{
+    font-size: 40px;
+}
+
+.flex2 .p1{
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+}
+
+footer{
+    background-color: #1e1919;
+    width: 100%;
+}
+.collegamenti{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+footer h4{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+footer ul li{  
+    margin-bottom: 10px;
+   list-style-type: none;
+}
+
+.social{
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    margin: 0 auto;
+    color: white; 
+}
+
+.social ul{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.lingua{
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+.lingua div{
+ border-top:1px solid white;
+ padding-top: 40px;
+ }
+
+.lingua div i{
+   padding-right: 7px;
+   font-size: 20px;
 }
 
 @keyframes rotate {
